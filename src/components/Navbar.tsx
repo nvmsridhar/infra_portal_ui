@@ -11,7 +11,7 @@ const Navbar = () => {
     { path: '/about', label: 'About' },
     { path: '/projects', label: 'Projects' },
     { path: '/testimonials', label: 'Testimonials' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/contact', label: 'Contact US' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
